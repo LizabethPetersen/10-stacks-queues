@@ -1,7 +1,7 @@
 'use strict';
 
-// describe('Jest working', () => {
-// test('#fake', () => {
-// expect(fake()).toBe('working');
-// });
-// });
+describe('testing to see if I am connected to TravisCI', () => {
+  test('should equal true', () => {
+    expect(true).toEqual(true);
+  });
+});
