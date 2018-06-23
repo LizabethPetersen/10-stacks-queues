@@ -9,12 +9,12 @@ module.exports = class Stack {
   }
 
   // Time Complexity: O(1); Space Complexity: O(1)
-  insertNode(value) {
-    const node = new Node(value);
-    this.storage[this.count] = value;
-    this.count++;
-    return value;
-  }
+  // insertNode(value) {
+  // const node = new Node(value);
+  // this.storage[this.count] = value;
+  // this.count++;
+  // return value;
+  // }
 
   // Time Complexity: O(n); Space Complexity: O(n)
   insertAtEnd(value) {
