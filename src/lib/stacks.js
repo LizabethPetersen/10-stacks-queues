@@ -8,7 +8,7 @@ module.exports = class Stack {
     this.storage = {};
   }
 
-  // Time Complexity: O(1); Space Complexity: O(1)
+  // Time Complexity: ----; Space Complexity: ----
   // insertNode(value) {
   // const node = new Node(value);
   // this.storage[this.count] = value;
@@ -16,7 +16,7 @@ module.exports = class Stack {
   // return value;
   // }
 
-  // Time Complexity: O(n); Space Complexity: O(n)
+  // Time Complexity: ----; Space Complexity: ----
   insertAtEnd(value) {
     const node = new Node(value);
     if (!this.head) {
@@ -51,7 +51,7 @@ module.exports = class Stack {
     if (this.head.value === value) {
       return this.head;
     }
-    // Time Complexity: O(n); Space Complexity: O(n). 
+    // Time Complexity: ----; Space Complexity: ---- 
     let currentNode = this.head;
     while (currentNode.next) {
       if (currentNode.next.value === value) {
